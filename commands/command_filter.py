@@ -8,8 +8,12 @@ HELP_TEXT="Forward Me A File,Video,Audio,Photo or Anything And \nI will Send You
 #Inline Keyboard Button
 keyboard = [
 [
- InlineKeyboardButton("My Developer 🖥️", url=source)
+ InlineKeyboardButton("My Developer 💻", url=source)
 ],
+[
+ InlineKeyboardButton("Support",url=https://t.me/DevangJain"")
+]
+]
 reply_markup = InlineKeyboardMarkup(keyboard)
 
 #Start Message
