@@ -1,19 +1,15 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup,ParseMode
 import os
 
-source="https://github.com/Artis7eeR/forward-Tag-Remover-Bot"
+source="https://t.me/DevangJain"
 START_TEXT="Hi [{}](tg://user?id={})\nI am A Forward Tag remover Bot which is created by @DevangJain.Send /help To Know What I Can Do"
 HELP_TEXT="Forward Me A File,Video,Audio,Photo or Anything And \nI will Send You the File Back\n\n`How to Set Caption?`\nReply Caption to a File,Photo,Audio,Media"
 
 #Inline Keyboard Button
 keyboard = [
 [
- InlineKeyboardButton("Source Code", url=source)
+ InlineKeyboardButton("My Developer 🖥️", url=source)
 ],
-[
- InlineKeyboardButton("How To Create A Bot Like Me",url="https://youtu.be/swg6un2N4Fk")
-]
-]
 reply_markup = InlineKeyboardMarkup(keyboard)
 
 #Start Message
